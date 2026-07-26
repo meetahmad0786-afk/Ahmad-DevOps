@@ -1,0 +1,5 @@
+[[rules]]
+id = "custom-password"
+description = "Detect generic passwords"
+regex = '''(?i)(password\s*=\s*".*")'''
+tags = ["password"]
